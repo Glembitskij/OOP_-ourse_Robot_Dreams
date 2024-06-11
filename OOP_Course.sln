@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson №_1 Сlasses and objects", "Lesson №_1 Сlasses and objects", "{96BB07D0-3F42-4852-BFC0-DA14929BEADB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson №_2 Introduction to OOP", "Lesson №_2 Introduction to OOP", "{F111FF93-1AA0-4FD2-A3A1-E2D324E79603}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson №_3 Encapsulation", "Lesson №_3 Encapsulation", "{6374DE0C-90FD-42EB-9691-58250B298B16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson №_4 Inheritance", "Lesson №_4 Inheritance", "{C2B05D83-67B7-452C-BF55-4E78881806E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson №_5 Polymorphism", "Lesson №_5 Polymorphism", "{49D3F242-D3AA-45B7-B043-B3B542404992}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson №_6  Abstraction", "Lesson №_6  Abstraction", "{5ECA9349-AA09-4B0D-8634-1CB77A5E1F1A}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
