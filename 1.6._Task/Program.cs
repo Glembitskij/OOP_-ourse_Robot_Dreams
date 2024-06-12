@@ -1,9 +1,7 @@
 ﻿
 Developer developerAlex = new Developer();
-//developerAlex.Name = "Alexs";
-string? name = developerAlex.Name;
-
-Console.WriteLine(name);
+developerAlex.Name = "Alexs";
+//string? name = developerAlex.Name;
 
 internal class Developer
 {
@@ -11,10 +9,15 @@ internal class Developer
 
     public string? Name
     {
-        get
+        set
         {
-            return name;
+            name = value;
         }
+    }
+
+    public void WriteName()
+    {
+        Console.WriteLine(name);
     }
 
     public void WriteCode()
