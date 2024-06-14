@@ -18,7 +18,6 @@ Pair<string, double> pair2 = new Pair<string, double>("Pi value", 3.14);
 Console.WriteLine("Перша частина пари: " + pair2.First);
 Console.WriteLine("Друга частина пари: " + pair2.Second);
 
-
 public class Pair<T1, T2>
 {
     public T1 First { get; private set; }
