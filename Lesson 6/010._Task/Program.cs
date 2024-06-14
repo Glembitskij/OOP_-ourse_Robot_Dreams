@@ -1,36 +1,35 @@
 ﻿Developer developer = new Developer();
-developer.Work();
-developer.Life();
+developer.Work(); // Виклик методу Work() класу Developer
+developer.Life(); // Виклик методу Life() класу Developer
 
 Employee employee = developer;
-employee.Work();
-employee.Life();
+employee.Work(); // Виклик методу Work() через інтерфейс Employee, успадкований від Developer
+employee.Life(); // Виклик методу Life() через інтерфейс Employee, успадкований від Developer
 
 IPerson person = developer;
-person.Life();
+person.Life(); // Виклик методу Life() через інтерфейс IPerson, успадкований від Developer
 
 public interface IPerson
 {
-    void Life();
+    void Life(); // Сигнатура методу, що оголошена в інтерфейсі IPerson
 }
 
 abstract class Employee : IPerson
 {
-    public abstract void Work();
+    public abstract void Work(); // Абстрактний метод Work, що потрібно реалізувати у нащадках
 
-    public abstract void Life();
+    public abstract void Life(); // Абстрактний метод Life, що потрібно реалізувати у нащадках
 }
 
 class Developer : Employee
 {
     public override void Life()
     {
-        Console.WriteLine("Developer life");
+        Console.WriteLine("Developer life"); // Реалізація методу Life() для класу Developer
     }
 
     public override void Work()
     {
-        Console.WriteLine("Developer Work");
+        Console.WriteLine("Developer Work"); // Реалізація методу Work() для класу Developer
     }
 }
-

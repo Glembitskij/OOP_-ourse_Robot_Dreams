@@ -1,26 +1,30 @@
-﻿Document document = new Document();
-document.CreateFooter();
-document.CreateDescription();
-document.CreateAuthor();
-document.CreateFooter();
+﻿Document document = new Document(); // Створення нового об'єкта класу Document
+document.CreateFooter(); // Виклик методу CreateFooter
+document.CreateDescription(); // Виклик методу CreateDescription
+document.CreateAuthor(); // Виклик методу CreateAuthor
+document.CreateFooter(); // Виклик методу CreateFooter ще раз
 
 internal class Document
 {
+    // Метод для створення заголовка документа
     public void CreateTitle()
     {
         Console.WriteLine("Create Title");
     }
 
-    public void CreateDescription() 
+    // Метод для створення опису документа
+    public void CreateDescription()
     {
         Console.WriteLine("Create Description");
     }
 
-    public void CreateAuthor() 
+    // Метод для створення автора документа
+    public void CreateAuthor()
     {
         Console.WriteLine("Create Author");
     }
 
+    // Метод для створення нижнього колонтитулу документа
     public void CreateFooter()
     {
         Console.WriteLine("Create Footer");
