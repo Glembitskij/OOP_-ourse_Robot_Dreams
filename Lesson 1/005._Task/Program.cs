@@ -1,14 +1,19 @@
-﻿
+﻿// Створення об'єкту класу Developer
 Developer developerAlex = new Developer();
-//developerAlex.Name = "Alexs";
+
+// Отримання значення властивості Name (яке зараз є null)
 string? name = developerAlex.Name;
 
-Console.WriteLine(name);
+// Виведення отриманого імені на консоль
+Console.WriteLine(name); // Виведе null, оскільки значення не було встановлено
 
+
+// Клас Developer з властивістю Name для роботи з іменем розробника
 internal class Developer
 {
-    private string? name;
+    private string? name; // Приватне поле для зберігання імені
 
+    // Властивість Name з методом get для отримання значення поля name
     public string? Name
     {
         get
@@ -17,6 +22,7 @@ internal class Developer
         }
     }
 
+    // Приклад додаткового методу класу Developer
     public void WriteCode()
     {
         Console.WriteLine("WriteCode");
